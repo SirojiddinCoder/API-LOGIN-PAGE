@@ -16,6 +16,8 @@ export const Login = () => {
 useEffect(()=>{
   if(token){
     navigate("/home")
+  } else{
+    navigate("/")
   }
 },[])
 
