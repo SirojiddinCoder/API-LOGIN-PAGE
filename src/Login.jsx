@@ -14,11 +14,11 @@ export const Login = () => {
     const token = localStorage.getItem('AccesToken')
 
 useEffect(()=>{
-  if(token){
-    navigate("/home")
-  } else{
-    navigate("/")
-  }
+//   if(token){
+//     navigate("/home")
+//   } else{
+//     navigate("/")
+//   }
 },[])
 
 
